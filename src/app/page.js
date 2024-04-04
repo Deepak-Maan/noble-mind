@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import Aboutus from "./components/Aboutus";
 import ContactUs from "./components/ContactUs";
 import NewsLetter from "./components/NewsLetter";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 import Faq from "./components/Faq";
 import ChooseUs from "./components/Choose";
 

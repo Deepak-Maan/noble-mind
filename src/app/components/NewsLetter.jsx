@@ -7,7 +7,7 @@ const NewsLetter = () => {
                 <h2 className='font-light text-5xl text-center leading-[57px] text-white'>Subscribe to our <span className='font-semibold'>Newsletter!</span></h2>
                 <p className='text-center text-white text-base font-normal font-Exo pb-9 pt-2'>Be the first to get exclusive offers and the latest news.</p>
                 <div className='mx-auto bg-[#FFFFFF0D] backdrop-blur-[30px] max-w-[448px] w-full border border-[#A37FE0] rounded-[6px] py-[10px] pr-[10px] pl-6 flex justify-between'>
-                    <input type="email" name="email" id="email" className='bg-transparent placeholder:text-white placeholder:font-semibold placeholder:text-base placeholder:font-Outfit focus:outline-none border-none text-white font-semibold font-Outfit text-base' placeholder='Enter your email' />
+                    <input type="email" name="email" id="email" className='bg-transparent placeholder:text-white placeholder:font-semibold placeholder:text-base placeholder:font-Outfit focus:outline-none border-none text-white font-semibold font-Outfit text-base max-sm:w-full' placeholder='Enter your email' />
                     <button className='py-[14px] px-6 border border-white font-Outfit font-semibold text-base rounded text-white'>Subscribe</button>
                 </div>
             </div>

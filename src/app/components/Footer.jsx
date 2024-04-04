@@ -1,18 +1,16 @@
 import React from "react";
-import { Facebook, FooterLogo, Insta, LInkedin, Twiter } from "./components/Icons";
+import { Facebook, FooterLogo, Insta, LInkedin, Twiter } from "./Icons";
 
 
 const Footer = () => {
     return (
         <div className=" bg-[#161507] overflow-hidden">
             <div className=" container mx-auto px-3 pt-[138px]">
-                <div className=" grid grid-cols-3">
+                <div className=" grid lg:grid-cols-3">
                     <div className=" col-span-2">
                         <FooterLogo />
-                        <p className=" font-normal text-base font-Exo text-white pt-[28px]">
-                            Follow Us
-                        </p>
-                        <div className="flex pt-2 gap-4">
+                        <p className=" font-normal text-base font-Exo text-white pt-[28px]">Follow Us</p>
+                        <div className="flex pt-2 gap-4 pb-5 sm:pb-0">
                             <Facebook />
                             <Insta />
                             <Twiter />
