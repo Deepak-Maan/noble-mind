@@ -6,7 +6,7 @@ const ContactUs = () => {
     return (
         <div className='container mx-auto px-3'>
             <div className="grid lg:grid-cols-2">
-                <div className='max-w-[478px]'>
+                <div className='max-w-[478px] order-2 lg:order-1'>
                     <h2 className=' text-5xl leading-[57px] text-black font-semibold font-Outfit'>Contact <span className='font-light'>Us</span></h2>
                     <p className='text-base font-Exo text-[#5A594D] max-w-[409px] pt-4 pb-[18px] '>Feel free to contact us any time . We will get back to you as soon as we can! </p>
                     <div className='flex max-sm:flex-col gap-3 pb-4'>
@@ -29,8 +29,8 @@ const ContactUs = () => {
                     </div>
                     <CommonBtn text='Submit' />
                 </div>
-                <div>
-                    <Image src={ContactImg} alt='Contact Img' width={598} height={572} className='w-full h-[572px]' />
+                <div className='order-1 lg:order-2'>
+                    <Image src={ContactImg} alt='Contact Img' width={598} height={572} className='w-full sm:h-[572px]' />
                 </div>
             </div>
         </div>

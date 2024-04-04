@@ -26,15 +26,14 @@ const Nav = () => {
                     <li className=' lg:pr-10'><a onClick={setopen} className=' font-Exo text-[#5A594D] text-base leading-6 font-normal' href="#faq">FAQ</a></li>
                     <li> <CommonBtn text='Contact Us' /></li>
                 </ul>
-                <div onClick={setopen}>
+                <div className='lg:hidden' onClick={setopen}>
                     {first ? (
-                        <div className="flex lg:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer  ">
+                        <div className="flex lg:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer mt-[-30px] mr-[-10px] ">
                             <span className="bg-black w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300 rotate-[53deg] -bottom-[11px]"></span>
                             <span className="bg-black w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300 -rotate-45 bottom-2"></span>
                         </div>
                     ) : (
                         <div className=" flex lg:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer ">
-
                             <span className="bg-black w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300"></span>
                             <span className="bg-black  w-2/3 h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300"></span>
                             <span className="bg-black w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300"></span>

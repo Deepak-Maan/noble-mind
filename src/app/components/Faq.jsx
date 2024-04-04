@@ -21,38 +21,38 @@ const Faq = () => {
     const [open, setOpen] = React.useState(1);
     const AccordionOpen = (value) => setOpen(open === value ? 0 : value);
     return (
-        <div id="faq" className=" container mx-auto px-3 py-[150px]">
+        <div id="faq" className=" container mx-auto px-3 py-7 sm:py-10 md:py-20 lg:py-[150px]">
             <h2 className=" font-light text-5xl leading-[57px]  font-Outfit text-black text-center">Frequently <span className=" font-semibold">Asked Questions</span></h2>
             <p className=" font-normal text-base font-Exo text-[#5A594D] max-w-[497px] mx-auto text-center pt-4 pb-[52px]">Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu volutpat mi leo. Nibh nisl consequat metus.</p>
             <div className=" mx-auto relative max-w-[774px] px-2 " >
                 <div className="shadow-[0px_4px_32px_0px_#00000014]">
-                    <Accordion onClick={() => AccordionOpen(1)} className={` rounded-[6px] shadow-[0px 4px32px_0px_#00000014] cursor-pointer border bg-white p-6  ${open == 1 ? "shadow-[inset_0_-5px_1px_#a854e9] border-[#a854e9]" : "shadow-none border-[#EBDAF8]"}`} open={open === 1} icon={<Arrow id={1} open={open} />} >
-                        <AccordionHeader className=" font-Outfit text-base font-medium text-black w-full justify-between">Maecenas laoreet, sapien vel cursus ultricies?</AccordionHeader>
-                        <AccordionBody className=" font-Exo text-base font-medium text-[#4D4D4D] max-w-[680px] pt-3 "> Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?</AccordionBody>
+                    <Accordion onClick={() => AccordionOpen(1)} className={` rounded-[6px] shadow-[0px 4px32px_0px_#00000014] cursor-pointer border bg-white p-2 md:p-6  ${open == 1 ? "shadow-[inset_0_-5px_1px_#a854e9] border-[#a854e9]" : "shadow-none border-[#EBDAF8]"}`} open={open === 1} icon={<Arrow id={1} open={open} />} >
+                        <AccordionHeader className=" font-Outfit text-base font-medium text-black w-full justify-between text-start">Maecenas laoreet, sapien vel cursus ultricies?</AccordionHeader>
+                        <AccordionBody className=" font-Exo text-[14px] sm:text-base font-medium text-[#4D4D4D] max-w-[680px] pt-3 "> Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?</AccordionBody>
                     </Accordion>
                 </div>
                 <div className="shadow-[0px_4px_32px_0px_#00000014]">
-                    <Accordion onClick={() => AccordionOpen(2)} className={` rounded-[6px] shadow-[0px 4px32px_0px_#00000014] cursor-pointer border bg-white p-6 mt-[18px] ${open == 2 ? "shadow-[inset_0_-5px_1px_#a854e9] border-[#a854e9]" : "shadow-none border-[#EBDAF8]"}`} open={open === 2} icon={<Arrow id={2} open={open} />} >
-                        <AccordionHeader className=" font-Outfit text-base font-medium text-black w-full justify-between"> How does AI benefit our company?</AccordionHeader>
-                        <AccordionBody className=" font-Exo text-base font-medium text-[#4D4D4D] max-w-[680px] pt-3 "> Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?</AccordionBody>
+                    <Accordion onClick={() => AccordionOpen(2)} className={` rounded-[6px] shadow-[0px 4px32px_0px_#00000014] cursor-pointer border bg-white p-2 md:p-6 mt-[18px] ${open == 2 ? "shadow-[inset_0_-5px_1px_#a854e9] border-[#a854e9]" : "shadow-none border-[#EBDAF8]"}`} open={open === 2} icon={<Arrow id={2} open={open} />} >
+                        <AccordionHeader className=" font-Outfit text-base font-medium text-black w-full justify-between text-start"> How does AI benefit our company?</AccordionHeader>
+                        <AccordionBody className=" font-Exo text-[14px] sm:text-base font-medium text-[#4D4D4D] max-w-[680px] pt-3 "> Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?</AccordionBody>
                     </Accordion>
                 </div>
                 <div className="shadow-[0px_4px_32px_0px_#00000014]">
-                    <Accordion onClick={() => AccordionOpen(3)} className={` rounded-[6px] shadow-[0px 4px32px_0px_#00000014] cursor-pointer border bg-white p-6 mt-[18px] ${open == 3 ? "shadow-[inset_0_-5px_1px_#a854e9] border-[#a854e9]" : "shadow-none border-[#EBDAF8]"}`} open={open === 3} icon={<Arrow id={3} open={open} />} >
-                        <AccordionHeader className=" font-Outfit text-base font-medium text-black w-full justify-between">What types of AI technologies are relevant to our industry?</AccordionHeader>
-                        <AccordionBody className=" font-Exo text-base font-medium text-[#4D4D4D] max-w-[680px] pt-3 ">Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? </AccordionBody>
+                    <Accordion onClick={() => AccordionOpen(3)} className={` rounded-[6px] shadow-[0px 4px32px_0px_#00000014] cursor-pointer border bg-white p-2 md:p-6 mt-[18px] ${open == 3 ? "shadow-[inset_0_-5px_1px_#a854e9] border-[#a854e9]" : "shadow-none border-[#EBDAF8]"}`} open={open === 3} icon={<Arrow id={3} open={open} />} >
+                        <AccordionHeader className=" font-Outfit text-base font-medium text-black w-full justify-between text-start">What types of AI technologies are relevant to our industry?</AccordionHeader>
+                        <AccordionBody className=" font-Exo text-[14px] sm:text-base font-medium text-[#4D4D4D] max-w-[680px] pt-3 ">Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? </AccordionBody>
                     </Accordion>
                 </div>
                 <div className="shadow-[0px_4px_32px_0px_#00000014]">
-                    <Accordion onClick={() => AccordionOpen(4)} className={` rounded-[6px] shadow-[0px 4px32px_0px_#00000014] cursor-pointer border bg-white p-6 mt-[18px] ${open == 4 ? "shadow-[inset_0_-5px_1px_#a854e9] border-[#a854e9]" : "shadow-none border-[#EBDAF8]"}`} open={open === 4} icon={<Arrow id={4} open={open} />}>
-                        <AccordionHeader className=" font-Outfit text-base font-medium text-black w-full justify-between"> How can our employees adapt to AI integration? </AccordionHeader>
-                        <AccordionBody className=" font-Exo text-base font-medium text-[#4D4D4D] max-w-[680px] pt-3 "> Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? </AccordionBody>
+                    <Accordion onClick={() => AccordionOpen(4)} className={` rounded-[6px] shadow-[0px 4px32px_0px_#00000014] cursor-pointer border bg-white p-2 md:p-6 mt-[18px] ${open == 4 ? "shadow-[inset_0_-5px_1px_#a854e9] border-[#a854e9]" : "shadow-none border-[#EBDAF8]"}`} open={open === 4} icon={<Arrow id={4} open={open} />}>
+                        <AccordionHeader className=" font-Outfit text-base font-medium text-black w-full justify-between text-start"> How can our employees adapt to AI integration? </AccordionHeader>
+                        <AccordionBody className=" font-Exo text-[14px] sm:text-base font-medium text-[#4D4D4D] max-w-[680px] pt-3 "> Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? </AccordionBody>
                     </Accordion>
                 </div>
                 <div className="shadow-[0px_4px_32px_0px_#00000014]">
-                    <Accordion onClick={() => AccordionOpen(5)} className={` rounded-[6px] shadow-[0px 4px32px_0px_#00000014] cursor-pointer border bg-white p-6 mt-[18px] ${open == 5 ? "shadow-[inset_0_-5px_1px_#a854e9] border-[#a854e9]" : "shadow-none border-[#EBDAF8]"}`} open={open === 5} icon={<Arrow id={5} open={open} />} >
-                        <AccordionHeader className=" font-Outfit text-base font-medium text-black w-full justify-between">How can our company ensure data security with AI?</AccordionHeader>
-                        <AccordionBody className=" font-Exo text-base font-medium text-[#4D4D4D] max-w-[680px] pt-3 ">Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?</AccordionBody>
+                    <Accordion onClick={() => AccordionOpen(5)} className={` rounded-[6px] shadow-[0px 4px32px_0px_#00000014] cursor-pointer border bg-white p-2 md:p-6 mt-[18px] ${open == 5 ? "shadow-[inset_0_-5px_1px_#a854e9] border-[#a854e9]" : "shadow-none border-[#EBDAF8]"}`} open={open === 5} icon={<Arrow id={5} open={open} />} >
+                        <AccordionHeader className=" font-Outfit text-base font-medium text-black w-full justify-between text-start">How can our company ensure data security with AI?</AccordionHeader>
+                        <AccordionBody className=" font-Exo text-[14px] sm:text-base font-medium text-[#4D4D4D] max-w-[680px] pt-3 ">Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?</AccordionBody>
                     </Accordion>
                 </div>
             </div>

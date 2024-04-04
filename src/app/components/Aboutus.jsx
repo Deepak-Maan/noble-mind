@@ -4,8 +4,8 @@ import { AIlogo } from './Icons'
 import CommonBtn from './CommonBtn'
 const Aboutus = () => {
     return (
-        <div className='container mx-auto px-3 py-[150px]'>
-            <div className="grid min-[1140px]:grid-cols-2 gap-[75px]">
+        <div className='container mx-auto px-3 py-7 sm:py-10 md:py-20 lg:py-[150px]'>
+            <div className="grid min-[1140px]:grid-cols-2 gap-1 sm:gap-7 md:gap-10 lg:gap-[75px]">
                 <div>
                     <Image src={AboutImg} alt={AboutImg} height={567} width={544} />
                 </div>
