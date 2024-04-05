@@ -94,3 +94,9 @@
 .bg-size-100 {
     background-size: 100% 100%;
 }
+
+@media (min-width:1280px) {
+    .swiper-slide {
+        margin-right: 0 !important;
+    }
+}
