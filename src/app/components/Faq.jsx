@@ -22,8 +22,8 @@ const Faq = () => {
     const AccordionOpen = (value) => setOpen(open === value ? 0 : value);
     return (
         <div id="faq" className=" container mx-auto px-3 py-7 sm:py-10 md:py-20 lg:py-[150px]">
-            <h2 className=" font-light text-5xl leading-[57px]  font-Outfit text-black text-center">Frequently <span className=" font-semibold">Asked Questions</span></h2>
-            <p className=" font-normal text-base font-Exo text-[#5A594D] max-w-[497px] mx-auto text-center pt-4 pb-[52px]">Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu volutpat mi leo. Nibh nisl consequat metus.</p>
+            <h2 className=" font-light text-2xl md:text-4xl lg:text-5xl leading-8 lg:leading-[57px]  font-Outfit text-black text-center">Frequently <span className=" font-semibold">Asked Questions</span></h2>
+            <p className=" font-normal text-sm sm:font-base font-Exo text-[#5A594D] max-w-[497px] mx-auto text-center pt-4 pb-4 sm:pb-7 lg:pb-[52px]">Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu volutpat mi leo. Nibh nisl consequat metus.</p>
             <div className=" mx-auto relative max-w-[774px] px-2 " >
                 <div className="shadow-[0px_4px_32px_0px_#00000014]">
                     <Accordion onClick={() => AccordionOpen(1)} className={` rounded-[6px] shadow-[0px 4px32px_0px_#00000014] cursor-pointer border bg-white p-2 md:p-6  ${open == 1 ? "shadow-[inset_0_-5px_1px_#a854e9] border-[#a854e9]" : "shadow-none border-[#EBDAF8]"}`} open={open === 1} icon={<Arrow id={1} open={open} />} >

@@ -11,7 +11,7 @@ import ChooseUs from "./components/Choose";
 export default function Home() {
   return (
     <div>
-      <div className=" bg-hero">
+      <div className=" md:bg-hero bg-contain bg-center bg-no-repeat">
         <Nav />
         <Hero />
       </div>

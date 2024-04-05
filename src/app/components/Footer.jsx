@@ -20,18 +20,18 @@ const Footer = () => {
                     <div>
                         <div className=" flex gap-[64px]">
                             <ul>
-                                <li><a href="" className="text-white font-semibold text-base font-Outfit">Maine</a></li>
-                                <li className="pt-4"><a href="" className="font-normal text-base font-Exo text-[#B7B7B4]">Home</a></li>
-                                <li className="pt-[14px]"><a href="" className="font-normal text-base font-Exo text-[#B7B7B4]">About Us</a></li>
-                                <li className="pt-[14px]"><a href="" className="font-normal text-base font-Exo text-[#B7B7B4]">services</a></li>
-                                <li className="pt-[14px]"><a href="" className="font-normal text-base font-Exo text-[#B7B7B4]"> Why Choose Us </a></li>
+                                <li className="text-white font-semibold text-base font-Outfit">Maine</li>
+                                <li className="pt-4"><a href="#home" className="font-normal text-base font-Exo text-[#B7B7B4]">Home</a></li>
+                                <li className="pt-[14px]"><a href="#aboutus" className="font-normal text-base font-Exo text-[#B7B7B4]">About Us</a></li>
+                                <li className="pt-[14px]"><a href="#" className="font-normal text-base font-Exo text-[#B7B7B4]">services</a></li>
+                                <li className="pt-[14px]"><a href="#chooseUs" className="font-normal text-base font-Exo text-[#B7B7B4]"> Why Choose Us </a></li>
                             </ul>
                             <ul>
-                                <li><a href="" className="text-white font-semibold text-base font-Outfit">Legal</a></li>
-                                <li className="pt-4"><a href="" className=" font-normal text-base font-Exo text-[#B7B7B4]">Term & Conduction</a></li>
-                                <li className="pt-[14px]"><a href="" className=" font-normal text-base font-Exo text-[#B7B7B4]">Privacy Policy</a></li>
-                                <li className="pt-[14px]"><a href="" className=" font-normal text-base font-Exo text-[#B7B7B4]">Contact</a></li>
-                                <li className="pt-[14px]"><a href="" className=" font-normal text-base font-Exo text-[#B7B7B4]">(629) 555-0129</a></li>
+                                <li className="text-white font-semibold text-base font-Outfit">Legal</li>
+                                <li className="pt-4"><a href="#" className=" font-normal text-base font-Exo text-[#B7B7B4]">Term & Conduction</a></li>
+                                <li className="pt-[14px]"><a href="#" className=" font-normal text-base font-Exo text-[#B7B7B4]">Privacy Policy</a></li>
+                                <li className="pt-[14px]"><a href="#" className=" font-normal text-base font-Exo text-[#B7B7B4]">Contact</a></li>
+                                <li className="pt-[14px]"><a href="tel:(629)555-0129" className=" font-normal text-base font-Exo text-[#B7B7B4]">(629) 555-0129</a></li>
                             </ul>
                         </div>
                     </div>

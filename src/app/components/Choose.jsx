@@ -4,6 +4,8 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { AIlogo } from './Icons';
+import Image from 'next/image';
+import MeatingImg from '../../../public/assets/images/meating.png'
 const ChooseUs = () => {
     const Items = [
         { id: 1, title: 'Customer-Centric', para: 'Prioritize and anticipate client needs, ensuring our technology solutions consistently deliver unparalleled value.' },
@@ -12,10 +14,10 @@ const ChooseUs = () => {
         { id: 4, title: 'Customer-Centric', para: 'Prioritize and anticipate client needs, ensuring our technology solutions consistently deliver unparalleled value.' },
     ]
     return (
-        <div className=" lg:mb-[150px]">
+        <div id='chooseUs' className="mb-7 sm:mb-10 md:mb-20 lg:mb-[150px]">
             <div className="container mx-auto px-3 flex flex-col items-center justify-center overflow-hidden">
                 <p className='flex items-center'><AIlogo />Why Choose Us</p>
-                <h2 className="mt-1 h2 md:mt-2 max-w-[521px] text-center font-light font-Outfit text-5xl leading-[57px]">Driving Innovation & <span className='font-semibold'>Transforming Industries</span></h2>
+                <h2 className="mt-1 h2 md:mt-2 max-w-[521px] text-center font-light font-Outfit text-2xl md:text-4xl lg:text-5xl leading-8 lg:leading-[57px]">Driving Innovation & <span className='font-semibold'>Transforming Industries</span></h2>
                 <div className='flex flex-col w-full mt-[52px]'>
                     <Swiper spaceBetween={24}
                         slidesPerView={1}
@@ -47,6 +49,7 @@ const ChooseUs = () => {
                     </Swiper>
                     <div className="swiper-pagination"><span className='swiper-pagination-bullet'></span></div>
                 </div>
+                <Image className='w-full max-h-[527px] mt-[31px]' src={MeatingImg} alt='meating' height={527} width={1140} />
             </div>
         </div>
     )

@@ -15,14 +15,14 @@ const Nav = () => {
     }
     return (
         <div className=' container px-3 mx-auto'>
-            <nav className=' flex items-center justify-between py-5'>
+            <nav className=' flex items-center justify-between pt-2 sm:py-5'>
                 <a href="#"><Logo /></a>
-                <ul className={`${first ? "right-0" : "right-[100%]"} flex  gap-6  max-[1023px]:w-full h-full fixed bg-white top-0 items-center justify-center lg:h-unset lg:static  lg:bg-transparent lg:justify-end flex-col lg:flex-row z-40 transition-all ease-linear duration-300 `}>
-                    <li><a onClick={setopen} className=' font-Exo text-[#5A594D] text-base leading-6 font-normal' href="#home">Home</a></li>
-                    <li><a onClick={setopen} className=' font-Exo text-[#5A594D] text-base leading-6 font-normal' href="#aboutus">About Us</a></li>
-                    <li><a onClick={setopen} className=' font-Exo text-[#5A594D] text-base leading-6 font-normal' href="#services">Services</a></li>
-                    <li><a onClick={setopen} className=' font-Exo text-[#5A594D] text-base leading-6 font-normal' href="#chooseUs">Why Choose Us</a></li>
-                    <li><a onClick={setopen} className=' font-Exo text-[#5A594D] text-base leading-6 font-normal' href="#blog">Blog</a></li>
+                <ul className={`${first ? "right-0" : "right-[100%]"} flex gap-3  lg:gap-6  max-[1023px]:w-full h-full fixed bg-white top-0 items-center justify-center lg:h-unset lg:static  lg:bg-transparent lg:justify-end flex-col lg:flex-row z-40 transition-all ease-linear duration-300 `}>
+                    <li><a onClick={setopen} className=' font-Exo text-[#5A594D] hover:text-black duration-500 text-base leading-6 font-normal' href="#home">Home</a></li>
+                    <li><a onClick={setopen} className=' font-Exo text-[#5A594D] hover:text-black duration-500 text-base leading-6 font-normal' href="#aboutus">About Us</a></li>
+                    <li><a onClick={setopen} className=' font-Exo text-[#5A594D] hover:text-black duration-500 text-base leading-6 font-normal' href="#services">Services</a></li>
+                    <li><a onClick={setopen} className=' font-Exo text-[#5A594D] hover:text-black duration-500 text-base leading-6 font-normal' href="#chooseUs">Why Choose Us</a></li>
+                    <li><a onClick={setopen} className=' font-Exo text-[#5A594D] hover:text-black duration-500 text-base leading-6 font-normal' href="#blog">Blog</a></li>
                     <li className=' lg:pr-10'><a onClick={setopen} className=' font-Exo text-[#5A594D] text-base leading-6 font-normal' href="#faq">FAQ</a></li>
                     <li> <CommonBtn text='Contact Us' /></li>
                 </ul>

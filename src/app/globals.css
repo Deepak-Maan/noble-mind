@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+.overflow {
+    overflow: hidden;
+}
+
 .swiper-pagination {
     position: unset !important;
 }
@@ -85,4 +89,8 @@
 .common-btn:hover span:not(:nth-child(6)) {
     transform: translate(-50%, -50%) scale(5);
     transition: 1.5s ease;
+}
+
+.bg-size-100 {
+    background-size: 100% 100%;
 }

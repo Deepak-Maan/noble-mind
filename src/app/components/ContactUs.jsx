@@ -7,8 +7,8 @@ const ContactUs = () => {
         <div className='container mx-auto px-3'>
             <div className="grid lg:grid-cols-2">
                 <div className='max-w-[478px] order-2 lg:order-1'>
-                    <h2 className=' text-5xl leading-[57px] text-black font-semibold font-Outfit'>Contact <span className='font-light'>Us</span></h2>
-                    <p className='text-base font-Exo text-[#5A594D] max-w-[409px] pt-4 pb-[18px] '>Feel free to contact us any time . We will get back to you as soon as we can! </p>
+                    <h2 className=' text-2xl md:text-4xl lg:text-5xl leading-8 lg:leading-[57px] text-black font-semibold font-Outfit pt-4 lg:pt-0'>Contact <span className='font-light'>Us</span></h2>
+                    <p className='text-sm sm:font-base font-Exo text-[#5A594D] max-w-[409px] pt-4 pb-[18px] '>Feel free to contact us any time . We will get back to you as soon as we can! </p>
                     <div className='flex max-sm:flex-col gap-3 pb-4'>
                         <div className='flex flex-col'>
                             <label htmlFor="Name" className='text-[#5A594D] pb-2 text-base fornt-normal font-Exo '>Name</label>
