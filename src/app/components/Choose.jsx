@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { AIlogo } from './Icons';
+import { AIlogo, Ellipse } from './Icons';
 import Image from 'next/image';
 import MeatingImg from '../../../public/assets/images/meating.png'
 const ChooseUs = () => {
@@ -14,7 +14,9 @@ const ChooseUs = () => {
         { id: 4, title: 'Customer-Centric', para: 'Prioritize and anticipate client needs, ensuring our technology solutions consistently deliver unparalleled value.' },
     ]
     return (
-        <div id='chooseUs' className="mb-7 sm:mb-10 md:mb-20 lg:mb-[150px]">
+        <div id='chooseUs' className="pb-7 sm:pb-10 md:pb-20 lg:pb-[150px] relative overflow-hidden">
+            <div className=' absolute top-0 left-0 animate-pulse hidden lg:flex'><Ellipse /></div>
+            <div className=' absolute bottom-[15%] right-0 animate-pulse hidden lg:flex'><Ellipse /></div>
             <div className="container mx-auto px-3 flex flex-col items-center justify-center overflow-hidden">
                 <p className='flex items-center'><AIlogo />Why Choose Us</p>
                 <h2 className="mt-1 h2 md:mt-2 max-w-[521px] text-center font-light font-Outfit text-2xl md:text-4xl lg:text-5xl leading-8 lg:leading-[57px]">Driving Innovation & <span className='font-semibold'>Transforming Industries</span></h2>
