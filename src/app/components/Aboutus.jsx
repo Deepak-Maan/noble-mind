@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import AboutImg from '../../../public/assets/images/about-us-img.png'
+import AboutImg from '../../../public/assets/images/about-us-img.webp'
 import { AIlogo, Ellipse } from './Icons'
 import CommonBtn from './CommonBtn'
 const Aboutus = () => {

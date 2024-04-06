@@ -1,6 +1,6 @@
 import React from 'react'
 import CommonBtn from './CommonBtn'
-import ContactImg from '../../../public/assets/images/contact-img.png'
+import ContactImg from '../../../public/assets/images/contact-img.webp'
 import Image from 'next/image'
 const ContactUs = () => {
     return (

@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { AIlogo, Ellipse } from './Icons';
 import Image from 'next/image';
-import MeatingImg from '../../../public/assets/images/meating.png'
+import MeatingImg from '../../../public/assets/images/meating.webp'
 const ChooseUs = () => {
     const Items = [
         { id: 1, title: 'Customer-Centric', para: 'Prioritize and anticipate client needs, ensuring our technology solutions consistently deliver unparalleled value.' },
