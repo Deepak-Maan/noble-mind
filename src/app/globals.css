@@ -7,10 +7,6 @@
     scroll-behavior: smooth;
 }
 
-.overflow {
-    overflow: hidden;
-}
-
 .swiper-pagination {
     position: unset !important;
 }
@@ -93,6 +89,12 @@
 
 .bg-size-100 {
     background-size: 100% 100%;
+}
+
+@media (min-width:992px) {
+    .overflow {
+        overflow: hidden;
+    }
 }
 
 @media (min-width:1280px) {
