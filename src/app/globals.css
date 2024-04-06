@@ -91,7 +91,7 @@
     background-size: 100% 100%;
 }
 
-@media (min-width:992px) {
+@media (max-width:992px) {
     .overflow {
         overflow: hidden;
     }
