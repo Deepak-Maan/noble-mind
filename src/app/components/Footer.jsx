@@ -47,7 +47,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr className=" w-[2345px]  relative left-[-20%] bg-[#B8B8B4] mt-[52px]" />
-                <p className=" font-normal font-Exo text-[14px] leading-[21px text-[#B8B8B4] text-center py-4 sm:pb-[35px]">Â© Copyright 2023 Noble Mind | All rights reserved.</p>
+                <p className=" font-normal font-Exo text-[14px] leading-[21px text-[#B8B8B4] text-center py-4 sm:pb-[35px]">Â© Copyright 2024 Noble Mind | All rights reserved.</p>
             </div>
         </div>
     );
