@@ -7,7 +7,7 @@ const Aboutus = () => {
         <div className='relative'>
             <div className=' absolute top-0 left-0 animate-pulse'><Ellipse /></div>
             <div className=' absolute bottom-[20%] right-[20px]'><Ellipse /></div>
-            <div id='aboutus' className='container mx-auto px-3 py-7 sm:py-10 md:py-20 lg:py-[150px]'>
+            <div id='aboutus' className='container py-7 sm:py-10 md:py-20 lg:py-[150px]'>
                 <div className="grid min-[1140px]:grid-cols-2 gap-1 sm:gap-7 md:gap-10 lg:gap-[75px]">
                     <div>
                         <Image src={AboutImg} alt={AboutImg} height={567} width={544} />

@@ -15,6 +15,12 @@ module.exports = {
         newsImg: "url('/assets/images/news-bg-img.webp')",
         hero: "url('/assets/images/hero-bg.webp')",
       },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "12px",
+        },
+      },
       fontFamily: {
         Montserrat: "Montserrat, sans-serif",
         Outfit: "Outfit, sans-serif",

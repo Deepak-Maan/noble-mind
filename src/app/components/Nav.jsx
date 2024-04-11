@@ -14,7 +14,7 @@ const Nav = () => {
         }
     }
     return (
-        <div className=' container px-3 mx-auto'>
+        <div className=' container'>
             <nav className=' flex items-center justify-between pt-2 sm:py-5'>
                 <a href="#"><Logo /></a>
                 <ul className={`${first ? "right-0" : "right-[100%]"} flex gap-3  lg:gap-6  max-[1023px]:w-full h-full fixed bg-white top-0 items-center justify-center lg:h-unset lg:static  lg:bg-transparent lg:justify-end flex-col lg:flex-row z-40 transition-all ease-linear duration-300 `}>

@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+.container {
+    max-width: 1180px !important;
+}
+
 .swiper-pagination {
     position: unset !important;
 }
@@ -94,11 +98,5 @@
 @media (max-width:992px) {
     .overflow {
         overflow: hidden;
-    }
-}
-
-@media (min-width:1280px) {
-    .swiper-slide {
-        margin-right: 0 !important;
     }
 }

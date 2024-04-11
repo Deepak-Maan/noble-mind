@@ -5,7 +5,7 @@ import { Facebook, FooterLogo, Insta, LInkedin, Twiter } from "./Icons";
 const Footer = () => {
     return (
         <div className=" bg-[#161507] overflow-hidden">
-            <div className=" container mx-auto px-3 pt-[138px]">
+            <div className=" container pt-[138px]">
                 <div className=" grid lg:grid-cols-3">
                     <div className=" col-span-2">
                         <div className=" cursor-pointer">

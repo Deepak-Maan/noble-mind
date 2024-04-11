@@ -4,7 +4,7 @@ import ContactImg from '../../../public/assets/images/contact-img.webp'
 import Image from 'next/image'
 const ContactUs = () => {
     return (
-        <div className='container mx-auto px-3'>
+        <div className='container'>
             <div className="grid lg:grid-cols-2">
                 <div className='max-w-[478px] order-2 lg:order-1'>
                     <h2 className=' text-2xl md:text-4xl lg:text-5xl leading-8 lg:leading-[57px] text-black font-semibold font-Outfit pt-4 lg:pt-0'>Contact <span className='font-light'>Us</span></h2>

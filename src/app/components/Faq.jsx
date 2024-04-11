@@ -26,7 +26,7 @@ const Faq = () => {
             <div className=' absolute top-[10%] left-3 animate-pulse hidden lg:flex'><Ellipse /></div>
             <div className=' absolute bottom-[2%] left-0 animate-pulse hidden lg:flex'><Ellipse /></div>
             <div className=' absolute top-[60%] right-[5%] animate-pulse hidden lg:flex'><Ellipse /></div>
-            <div id="faq" className=" container mx-auto px-3 py-7 sm:py-10 md:py-20 lg:py-[150px]">
+            <div id="faq" className=" container py-7 sm:py-10 md:py-20 lg:py-[150px]">
                 <h2 className=" font-light text-2xl md:text-4xl lg:text-5xl leading-8 lg:leading-[57px]  font-Outfit text-black text-center">Frequently <span className=" font-semibold">Asked Questions</span></h2>
                 <p className=" font-normal text-sm sm:font-base font-Exo text-[#5A594D] max-w-[497px] mx-auto text-center pt-4 pb-4 sm:pb-7 lg:pb-[52px]">Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu volutpat mi leo. Nibh nisl consequat metus.</p>
                 <div className=" mx-auto relative max-w-[774px] px-2 " >
