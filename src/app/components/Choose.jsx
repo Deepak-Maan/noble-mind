@@ -51,7 +51,7 @@ const ChooseUs = () => {
                     </Swiper>
                     <div className="swiper-pagination"><span className='swiper-pagination-bullet'></span></div>
                 </div>
-                <Image className='w-full max-h-[527px] mt-[31px]' src={MeatingImg} alt='meating' height={527} width={1140} />
+                <Image className='w-full max-h-[527px] mt-[31px] max-sm:rounded-[8px] max-sm:h-[250px] max-sm:object-cover' src={MeatingImg} alt='meating' height={527} width={1140} />
             </div>
         </div>
     )
