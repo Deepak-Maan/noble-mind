@@ -28,14 +28,13 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        <div className=" flex gap-[64px]">
-                            <ul>
-                                <li className="text-white font-semibold text-base font-Outfit">Maine</li>
-                                <li className="pt-4"><a href="#home" className="font-normal text-base font-Exo text-[#B7B7B4] hover:text-white duration-300">Home</a></li>
-                                <li className="pt-[14px]"><a href="#aboutus" className="font-normal text-base font-Exo text-[#B7B7B4] hover:text-white duration-300">About Us</a></li>
-                                <li className="pt-[14px]"><a href="#" className="font-normal text-base font-Exo text-[#B7B7B4] hover:text-white duration-300">services</a></li>
-                                <li className="pt-[14px]"><a href="#chooseUs" className="font-normal text-base font-Exo text-[#B7B7B4] hover:text-white duration-300"> Why Choose Us </a></li>
-                            </ul>
+                        <div className=" flex gap-[64px]">                     <ul>
+                            <li className="text-white font-semibold text-base font-Outfit">Maine</li>
+                            <li className="pt-4"><a href="#home" className="font-normal text-base font-Exo text-[#B7B7B4] hover:text-white duration-300">Home</a></li>
+                            <li className="pt-[14px]"><a href="#aboutus" className="font-normal text-base font-Exo text-[#B7B7B4] hover:text-white duration-300">About Us</a></li>
+                            <li className="pt-[14px]"><a href="#" className="font-normal text-base font-Exo text-[#B7B7B4] hover:text-white duration-300">services</a></li>
+                            <li className="pt-[14px]"><a href="#chooseUs" className="font-normal text-base font-Exo text-[#B7B7B4] hover:text-white duration-300"> Why Choose Us </a></li>
+                        </ul>
                             <ul>
                                 <li className="text-white font-semibold text-base font-Outfit">Legal</li>
                                 <li className="pt-4"><a href="#" className=" font-normal text-base font-Exo text-[#B7B7B4] hover:text-white duration-300">Term & Conduction</a></li>
@@ -47,7 +46,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr className=" w-[2345px]  relative left-[-20%] bg-[#B8B8B4] mt-[52px]" />
-                <p className=" font-normal font-Exo text-[14px] leading-[21px text-[#B8B8B4] text-center py-4 sm:pb-[35px]">Â© Copyright 2024 Noble Mind | All rights reserved.</p>
+                <p className=" font-normal font-Exo text-[14px] leading-[21px text-[#B8B8B4] text-center py-4 sm:pb-[35px]">© Copyright 2024 Noble Mind | All rights reserved.</p>
             </div>
         </div>
     );
